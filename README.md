@@ -17,3 +17,11 @@ don't dump until you trigger with a keystroke
 done: put on github
 
 todo: add undetected-chromedriver (as a matter of principle because microsoft is likely to prevent scraping eventually)
+
+
+References:
+https://stackoverflow.com/questions/62587174/export-chat-messages-in-microsoft-teams-channels-programmatically-to-word-or-pdf
+
+https://github.com/gildas-lormeau/single-file-export-chat 
+
+https://github.com/evenevan/export-ms-teams-chats 
