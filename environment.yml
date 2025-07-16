@@ -1,9 +1,17 @@
+name: selenium_teams
 channels:
+  - conda-forge
   - defaults
 dependencies:
-  - python=3
-  - selenium
+  # Core dependencies
+  - python=3.10
   - pip
+
+  # Dependencies available on Conda
+  - selenium=4.22.0
+  - python-dotenv=1.0.1
+  - keyboard=0.13.5
+
+  # Dependencies to be installed with Pip
   - pip:
-    - keyboard
-#    - pyserial
+    - undetected-chromedriver==3.5.5
